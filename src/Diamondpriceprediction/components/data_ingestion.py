@@ -6,8 +6,8 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
-from src.DiamondPricePrediction.logger import logging
-from src.DiamondPricePrediction.exception import customexception
+from src.Diamondpriceprediction.logger import logging
+from src.Diamondpriceprediction.exception import customexception
 
 
 class DataIngestionConfig:

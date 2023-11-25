@@ -1,5 +1,5 @@
 import sys
-from src.DiamondPricePrediction.logger import logging
+from src.Diamondpriceprediction.logger import logging
 
 
 class customexception(Exception):

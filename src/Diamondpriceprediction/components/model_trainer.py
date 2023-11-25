@@ -5,10 +5,10 @@ import pandas as pd
 import numpy as np
 from dataclasses import dataclass
 from sklearn.linear_model import LinearRegression, Ridge,Lasso,ElasticNet
-from src.DiamondPricePrediction.logger import logging
-from src.DiamondPricePrediction.exception import customexception
-from src.DiamondPricePrediction.utils.utils import save_object
-from src.DiamondPricePrediction.utils.utils import evaluate_model
+from src.Diamondpriceprediction.logger import logging
+from src.Diamondpriceprediction.exception import customexception
+from src.Diamondpriceprediction.utils.utils import save_object
+from src.Diamondpriceprediction.utils.utils import evaluate_model
 
 
 

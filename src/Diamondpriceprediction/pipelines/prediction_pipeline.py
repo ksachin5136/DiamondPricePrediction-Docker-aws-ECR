@@ -1,9 +1,9 @@
 import os
 import sys
 import pandas as pd
-from src.DiamondPricePrediction.exception import customexception
-from src.DiamondPricePrediction.logger import logging
-from src.DiamondPricePrediction.utils.utils import load_object
+from src.Diamondpriceprediction.exception import customexception
+from src.Diamondpriceprediction.logger import logging
+from src.Diamondpriceprediction.utils.utils import load_object
 
 
 class PredictPipeline:

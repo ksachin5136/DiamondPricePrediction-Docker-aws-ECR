@@ -10,7 +10,7 @@ with open(path,"w") as f:
     pass"""
 
 
-from src.DiamondPricePrediction.pipelines.prediction_pipeline import CustomData, PredictPipeline
+from src.Diamondpriceprediction.pipelines.prediction_pipeline import CustomData, PredictPipeline
 
 data = CustomData(1.52, 62.2, 58.0, 7.27, 7.33, 4.55, "Premium", "F", "VS2")
 
@@ -27,10 +27,10 @@ result = round(pred[0], 2)
 print("result:", result)
 
 # o/p
-# DELL@SachinKPC MINGW64 /d/Mytech/IDE_workspace/ksachin5136git/DimondPricePredictionProject_repo/DimondPricePredictionProject (main)
+# DELL@SachinKPC MINGW64 /d/Mytech/IDE_workspace/ksachin5136git/DiamondPricePredictionProject_repo/DiamondPricePredictionProject (main)
 # $ python ./test.py
-# <src.DimondPricePrediction.pipelines.prediction_pipeline.CustomData object at 0x00000208D71DF0A0>
+# <src.Diamondpriceprediction.pipelines.prediction_pipeline.CustomData object at 0x000001D0C9EDD0A0>
 #    carat  depth  table     x     y     z      cut color clarity
 # 0   1.52   62.2   58.0  7.27  7.33  4.55  Premium     F     VS2
-# <class 'numpy.ndarray'> [10977.13159904]
-# result: 10977.13
+# <class 'numpy.ndarray'> [10983.24194409]
+# result: 10983.24

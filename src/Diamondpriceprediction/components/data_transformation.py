@@ -8,9 +8,9 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from src.DiamondPricePrediction.exception import customexception
-from src.DiamondPricePrediction.logger import logging
-from src.DiamondPricePrediction.utils.utils import save_object
+from src.Diamondpriceprediction.exception import customexception
+from src.Diamondpriceprediction.logger import logging
+from src.Diamondpriceprediction.utils.utils import save_object
 
 
 @dataclass
