@@ -1,8 +1,8 @@
 import os
 import sys
 import pandas as pd
-from src.Diamondpriceprediction.logger import logging
-from src.Diamondpriceprediction.exception import customexception
+# from src.Diamondpriceprediction.logger import logging
+# from src.Diamondpriceprediction.exception import customexception
 from src.Diamondpriceprediction.components.data_ingestion import DataIngestion
 from src.Diamondpriceprediction.components.data_transformation import DataTransformation
 from src.Diamondpriceprediction.components.model_trainer import ModelTrainer

@@ -37,9 +37,13 @@ for filepath in list_of_files:
     if filedir != "":
         os.makedirs(filedir, exist_ok=True)
 
+    # Now filedir is created Now below we are checking Whether Filedir with filename (i.e. filepath)
+    # exist or not, if not then open file for Write which will create the file in filedir.
+    # check research.ipynb
+
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath) == 0):
         with open(filepath, "w") as f:
-            pass
+            pass  # we dont want to write anything so this will Just create an Empty file
     else:
         print("file already exists")
 
