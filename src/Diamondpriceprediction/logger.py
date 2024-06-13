@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 print("COntrol in Logger module")
-LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
+LOG_FILE = f"{datetime.now().strftime('%Y_%H_%m_%d_%M_%S')}.log"
 log_path = os.path.join(os.getcwd(), "logs")
 os.makedirs(log_path, exist_ok=True)
 
